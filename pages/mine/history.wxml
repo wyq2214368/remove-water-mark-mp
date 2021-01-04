@@ -1,0 +1,23 @@
+<view class="no-data" wx:if="{{!list||list.length==0}}">暂无相关信息~</view>
+<view class="container">
+  <view class="scroll-gap"></view>
+  <view class="video-box shadow" wx:for="{{list}}" wx:key="id">
+    <view class="video-btm">
+      <view class="video-title ellipsis" bindtap="Copy_video_info" bindlongpress="Copy_video_info" data-content="{{item.url}}" data-tip="复制成功">{{item.url}}</view>
+      <button data-content="{{item}}" openType="share">
+        <icon color="#9cf" size="30" type="share"></icon>
+      </button>
+    </view>
+    <view class="video-cover" wx:if="{{preview != 0}}">
+      <image class="video-cover-poster" mode="aspectFit" src="{{item.image_url}}" bindtap="Copy_video_info" bindlongpress="Copy_video_info" data-content="{{item.image_url}}" data-tip="图片链接已复制"></image>
+      <icon bindtap="videoPlay" data-idx="{{index}}" class="video-cover-icon" color="#00c8fd" size="55" type="bofang"></icon>
+      <text class="video-date">{{item.updated_at}}</text>
+    </view>
+    <view class="btn">
+      <button class="btn-left" bindtap="Copy_video_info" bindlongpress="Copy_video_info" data-content="{{item.url}}" data-tip="视频地址已复制">复制链接</button>
+      <button class="btn-center" bindtap="Download" data-link="{{item.url}}">重新下载</button>
+      <button class="btn-right" bindtap="DEL" data-key="{{index}}" data-id="{{item.id}}">删除记录</button>
+    </view>
+  </view>
+  <view class="scroll-gap"></view>
+</view>

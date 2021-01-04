@@ -1,0 +1,33 @@
+.video-box {
+    display: block;
+    width: 560rpx;
+    height: 700rpx;
+    margin: 40rpx auto;
+}
+
+.parsing {
+    overflow: hidden;
+    display: block;
+    width: 664rpx;
+    height: 88rpx;
+    line-height: 88rpx;
+    color: #fff;
+    background-color: #337AFF;
+    box-shadow: 0 14rpx 28rpx rgba(51,122,255,.3);
+}
+
+.copy-url {
+    color: #FFF;
+    background-color: green;
+    border: 1px solid rgba(5,5,5,.1);
+    box-shadow: none;
+    margin-top: 40rpx;
+}
+
+.go-back {
+    color: #000;
+    background-color: #F8F8F8;
+    border: 1px solid rgba(5,5,5,.1);
+    box-shadow: none;
+    margin-top: 40rpx;
+}

@@ -1,0 +1,61 @@
+<view class="wrap">
+  <view class="platforms">
+    <text class="platforms-title">短视频去水印小帮手支持以下平台,部分平台不支持直接保存到相册</text>
+    <view class="page-body">
+      <view class="page-section page-section-spacing swiper">
+        <swiper>
+          <swiper-item>
+            <view class="swiper-item {{item}}">
+              <view class="platforms-item">
+                <image src="../../images/logo-douyin.png"></image>
+                <text>抖音</text>
+              </view>
+              <view class="platforms-item">
+                <image src="../../images/logo-gitShow.png"></image>
+                <text>快手</text>
+              </view>
+              <view class="platforms-item">
+                <image src="../../images/logo-ppx.png"></image>
+                <text>皮皮虾</text>
+              </view>
+              <view class="platforms-item">
+                <image src="../../images/logo-volcano.png"></image>
+                <text>火山视频</text>
+              </view>
+            </view>
+            <view class="swiper-item {{item}}">
+              <view class="platforms-item">
+                <image src="../../images/logo-microview.png"></image>
+                <text>微视</text>
+              </view>
+              <view class="platforms-item">
+                <image src="../../images/logo-meipai.png"></image>
+                <text>美拍</text>
+              </view>
+              <view class="platforms-item">
+                <image src="../../images/logo-xiaokaxiu.png"></image>
+                <text>小咖秀</text>
+              </view>
+              <view class="platforms-item">
+                <image src="../../images/logo-zuiyou.png"></image>
+                <text>最右</text>
+              </view>
+            </view>
+          </swiper-item>
+        </swiper>
+      </view>
+    </view>
+  </view>
+  <view class="watermark">
+    <view class="watermark-input">
+      <input model:value="{{videoUrl}}" id="inputText" placeholder=" 请复制视频链接，粘贴到这里" type="text"></input>
+      <button bindtap="inputClear" id="clearInputText">
+        <image src="../../images/icon-clear.png" wx:if="{{videoUrl==''}}"></image>
+        <image src="../../images/icon-clear-active.png" wx:else></image>
+      </button>
+    </view>
+    <button bindtap="submit" class="parsing" hoverClass="parsing-btn-hover">一键去除水印</button>
+    <view style="height: 300px;"></view>
+    <view class="center">@ yaqi.wang.com</view>
+  </view>
+</view>

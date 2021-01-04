@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "icon": "./icon/index"
+  },
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#f4f4f4",
+  "navigationBarTitleText": "我的下载",
+  "navigationBarTextStyle": "black"
+}

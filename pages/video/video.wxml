@@ -1,0 +1,8 @@
+<view class="wrap">
+    <video class="video-box" src="{{dataUrl}}" poster="{{dataImage}}" wx:if="{{preview != 0 && dataUrl!=''}}"></video>
+    <image class="video-box" src="{{dataImage}}" wx:else></image>
+    <view style="font-size: 10px; text-align: center; color: #858585;">服务器带宽较小，建议直接复制地址浏览器下载</view>
+    <button bindgetuserinfo="postSave" class="parsing" openType="getUserInfo">保存到相册</button>
+    <button bindtap="copyUrl" class="parsing copy-url">复制地址</button>
+    <button bindtap="goBack" class="parsing go-back">返回首页</button>
+</view>
