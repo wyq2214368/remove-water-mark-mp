@@ -18,11 +18,10 @@
 - [手把手教你做短视频去水印微信小程序（2-首页）](https://blog.csdn.net/qq_37788558/article/details/111500382)
 - [手把手教你做短视频去水印微信小程序（3-个人中心）](https://blog.csdn.net/qq_37788558/article/details/111478258)
 - [手把手教你做短视频去水印微信小程序（4-转换结果页）](https://blog.csdn.net/qq_37788558/article/details/111588413)
-- 手把手教你做短视频去水印微信小程序（5-服务端代码）【待完成】
-- 手把手教你做短视频去水印微信小程序（6-广告代码）【待完成】
-- 手把手教你做短视频去水印微信小程序（7-Q&A整理）【待完成】
+- [手把手教你做短视频去水印微信小程序（5-服务端代码）](https://blog.csdn.net/qq_37788558/article/details/112204720)
+- [手把手教你做短视频去水印微信小程序（6-广告代码）](https://blog.csdn.net/qq_37788558/article/details/112559472)
 
 # github源码地址
 欢迎star～
 - [短视频去水印小程序源码-小程序端](https://github.com/wyq2214368/remove-water-mark-mp)
-- [短视频去水印小程序源码-服务端（php）](https://github.com/wyq2214368/remove-water-mark-server)【待上传】
+- [短视频去水印小程序源码-服务端（php）](https://github.com/wyq2214368/remove-water-mark-server)
