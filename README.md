@@ -1,9 +1,7 @@
 # 短视频去水印小帮手-微信小程序
 
 我们的成品大致如下图这个样子：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201223194647138.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3Nzg4NTU4,size_16,color_FFFFFF,t_70#pic_center)
-
-**最后会将完整的小程序及服务端代码推到github，方便同学们查阅。**
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20201223194647138.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM3Nzg4NTU4,size_16,color_FFFFFF,t_70)
 
 可扫码预览：
 
