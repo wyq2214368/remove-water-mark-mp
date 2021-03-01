@@ -11,7 +11,7 @@
 <hr style=" border:solid; width:100px; height:1px;" color=#000000 size=1">
 
 # 系列文章
-- [手把手教你做短视频去水印微信小程序（0-概述）](https://editor.csdn.net/md/?articleId=111474557)
+- [手把手教你做短视频去水印微信小程序（0-概述）](https://blog.csdn.net/qq_37788558/article/details/111474557)
 - [手把手教你做短视频去水印微信小程序（1-封装网络请求&登陆逻辑）](https://blog.csdn.net/qq_37788558/article/details/111500382)
 - [手把手教你做短视频去水印微信小程序（2-首页）](https://blog.csdn.net/qq_37788558/article/details/111500382)
 - [手把手教你做短视频去水印微信小程序（3-个人中心）](https://blog.csdn.net/qq_37788558/article/details/111478258)
