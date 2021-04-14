@@ -7,6 +7,7 @@
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201221145928601.jpg)
 
+可搭配服务端配套源码使用。
 
 <hr style=" border:solid; width:100px; height:1px;" color=#000000 size=1">
 
@@ -20,6 +21,6 @@
 - [手把手教你做短视频去水印微信小程序（6-广告代码）](https://blog.csdn.net/qq_37788558/article/details/112559472)
 
 # github源码地址
-欢迎star～
+🔥欢迎star～
 - [短视频去水印小程序源码-小程序端](https://github.com/wyq2214368/remove-water-mark-mp)
 - [短视频去水印小程序源码-服务端（php）](https://github.com/wyq2214368/remove-water-mark-server)
