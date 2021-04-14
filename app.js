@@ -45,8 +45,8 @@ App({
   globalData: {
     userInfo: null,
     hasUserInfo: false,
-    apiDomain: 'https://example.com/api', //生产
-    downloadPrefix: 'https://example.com/download?url=', // 通过代理服务器中转（微信限制资源域名，不同平台cdn域名千变万化）
+    apiDomain: 'http://127.0.0.1:8000/api', //生产
+    downloadPrefix: 'http://127.0.0.1:8000/download?url=', // 通过代理服务器中转（微信限制资源域名，不同平台cdn域名千变万化）
     defaultDailyFreeParseNum: 10,
   },
 
